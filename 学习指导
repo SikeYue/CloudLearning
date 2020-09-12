@@ -1,0 +1,51 @@
+首先选择 Openstack 做为云计算学习框架； 
+
+编程语言：python  
+
+中间件知识： 
+
+rabbitmq：消息中间件，Openstack 中使用 rabbitmq 做模块之间的通信 
+
+mysql: 数据库，保存各模块的元数据 
+
+zookeeper: openstack 中高可用使用 
+
+基础知识：
+
+linux 相关知识 
+
+负载均衡 
+
+分布式及高可用  
+
+Openstack 模块相关知识： 
+
+keystone: 权限认证模块，SSL 证书相关知识，ACL 权限相关知识等 
+
+nova: 虚拟机，需要了解 KVM 等虚拟技术，其中需要了解调度算法相关，可以看看深度解析 KVM 
+
+neutron: linux 经典网络是必须要懂的，overlay network(vxlan等)等 SDN 相关知识，看看<<Huawei CloudEngine 12800 VXLAN.pdf>>等系列个人觉得非常不错的文档 
+
+swift: 需要懂对象存储，有一本<<swift对象存储>>不错 
+
+cinder: 块存储(Ceph)等，最好看看大话存储，再过渡到 <<ceph源码分析>> <<ceph设计与实现>>等 
+
+glance: 镜像服务 
+
+ 微服务相关知识： 
+
+docker: 需要学习 docker 的虚拟化技术，如何做资源隔离 
+
+k8s: 自动化容器部署平台 
+
+几本重要书籍: 
+
+<<OpenStack高可用集群>> 看完可以懂 openstack 涉及到的大部分技术 
+
+<<Openstack实现与分析>> 学习 openstack 实现逻辑 
+
+<<docker容器与容器云>> 学习 docker 原理 
+
+<<docker源码分析>> 学习 docker 实现原理，如何做资源隔离，如何系统调用操作网络等 
+
+<<Kubernetes权威指南>> 全面了解 Kubernetes
