@@ -4,7 +4,7 @@
 
 整个OpenStack的组织关系如下图所示：
 
-[!openstack组织关系图](./openstack组件关系图.png "组件关系图")
+![openstack组织关系图](./image/openstack组件关系图.png "组件关系图")
 
 又这个图可以看出对于用户或者管理者来说控制界面由`Horizon`组件提供，是一个UI界面，然后通过`Neutron(网络组件)`来连接到整个`OpenStack`内部网络中进行访问。
 
